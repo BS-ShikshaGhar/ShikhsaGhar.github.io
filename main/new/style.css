@@ -1,0 +1,57 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color:rgb(115, 178, 238);
+    /* display: flex; */
+   
+}
+ .sub-container{
+     font-size: 18px;
+     color: rgb(71, 6, 52);
+     display: block;
+     margin-left: 5%;
+     margin-right: 5%;
+ }
+ .container{
+       display: flex;
+       justify-content: center;
+       /* width: 100%; */
+       /* background-color:rgb(69, 117, 207);
+    */
+
+ }
+
+ h2{
+     padding: 2%;
+     border: darkgray;
+     text-align: center;
+     display: block;
+     /* background-color:skyblue; */
+     color: white;
+ }
+ #result{
+     justify-content: center;
+     display: none;
+ }
+ h3{
+     text-align: center;
+ }
+ #main{
+    display: block;
+ }
+ .sub{
+     display: flex;
+     justify-content: center;
+ }
+ #btn{
+     text-align: center;
+    padding: 15px;
+    width: auto;
+    font-size: 18px;
+    background-color: rgb(34, 27, 129);
+    border-radius: 10px;
+    color: white;
+    border-color:black;
+    border-style: solid;
+ }
