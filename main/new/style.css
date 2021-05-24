@@ -21,6 +21,17 @@ body{
     */
 
  }
+ .heading{
+    display: flex;
+    justify-content: center;
+}
+ h1{
+    border: darkgray;
+    text-align: center;
+    /* display: block; */
+    /* background-color:skyblue; */
+    color: white;
+}
 
  h2{
      padding: 2%;
