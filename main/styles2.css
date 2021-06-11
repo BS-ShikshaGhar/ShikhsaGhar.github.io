@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+}
+body{
+    text-align: center;
+    display: block;
+    background-color: black;
+    color: white;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin: 0%;
+    /* text-decoration: none; */
+}
+a{
+    text-decoration: none;
+    padding: 20px;
+}
+.pic{
+    margin-left: 0%;
+    margin-right: 0%;
+}

@@ -21,17 +21,6 @@ body{
     */
 
  }
- .heading{
-    display: flex;
-    justify-content: center;
-}
- h1{
-    border: darkgray;
-    text-align: center;
-    /* display: block; */
-    /* background-color:skyblue; */
-    color: white;
-}
 
  h2{
      padding: 2%;
@@ -66,9 +55,3 @@ body{
     border-color:black;
     border-style: solid;
  }
- .foot{
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}

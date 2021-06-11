@@ -9,7 +9,7 @@ body{
 }
 ul{
     list-style-type: none;
-    top=0;
+    top:0;
     position: fixed;
 }
 li{
@@ -37,7 +37,7 @@ h1{
     /* border: 2px;*/
 }
 h3{
-    text-align: left;
+    /* text-align: left; */
     margin-left: 10px;
 }
 button{
@@ -52,6 +52,7 @@ button{
 }
 a{
     text-align: center;
+    /* justify-content: center; */
 }
 .fram{
     height: 300px;
@@ -63,3 +64,31 @@ a{
 {
    font-size: 20px;
 }
+
+.link a{
+    text-decoration: none;
+}
+link{
+    text-align: center;
+}
+.go a{
+    text-decoration: none;
+    /* background-color: rgb(79, 134, 182); */
+    padding: 5px;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    /* width:%; */
+}
+.go{
+    /* width: 50%; */
+    /* display: flex; */
+    /* text-align: center; */
+    justify-content: center;
+    /* width: 70%; */
+    /* background-color: black; */
+}
+/* .quote{ */
+    /* display: block; */
+    /* text-align: left; */
+/* } */

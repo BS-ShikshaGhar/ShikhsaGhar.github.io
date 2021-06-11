@@ -1,0 +1,220 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body onload="display(); setInterval('display()',1000)">
+    <!-- <div class="time">
+        <p id="time">h</p>
+    </div> -->
+    <!-- <br>
+<br><br> -->
+<!-- <div class="tim">
+    <p id="time">h</p>
+</div> -->
+    <div class="contain" id="empty">
+       
+        <header class="header">
+            <div id="heading">
+                <h1 class="title">Quiz</h1>
+                
+                <!-- <h1 id="time"></h1> -->
+            </div>
+            <div class="tim">
+                <p class="name"> BIKKI SHAW</p>
+                <button class="btm"><p id="time">h</p></button>
+            </div>
+        </header>
+        <div id="question-list">
+            <h2 class="title">
+                Answer the questions
+            </h2>
+            <ul style="list-style: none;">
+                <li id="0">
+                    <span class="question">question 1</span>
+                    <div class="opt">
+                        <span class="option">moption</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <span class="skip">skip</span>
+                    <!-- <div class="question"></div>
+                   <div class="skip"></div> -->
+                </li>
+                <li id="1">
+                    <span class="question">question 2</span>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <span class="skip">skip</span>
+                </li>
+                <li id="2">
+                    <span class="question">question 3</span>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <span class="skip">skip</span>
+                </li>
+                <li id="3">
+                    <span class="question">question 4</span>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <span class="skip">skip</span>
+                </li>
+                <li id="4">
+                    <span class="question">question 5</span>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <span class="skip">skip</span>
+                </li>
+                <li id="5">
+                    <span class="question">question 5</span>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <span class="skip">skip</span>
+                </li>
+                <li id="6">
+                    <span class="question">question 6</span>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <span class="skip">skip</span>
+                </li>
+                <li id="7">
+                    <span class="question">question 7</span>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <span class="skip">skip</span>
+                </li>
+                <li id="8">
+                    <span class="question">question 8</span>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <span class="skip">skip</span>
+                </li>
+                <li id="9">
+                    <span class="question">question 9</span>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <div class="opt">
+                        <span class="option">option</span>
+                    </div>
+                    <span class="skip">skip</span>
+                </li>
+            </ul>
+        </div>
+        <div id="suggest">
+            
+        </div>
+        <!-- <form action="#" id="add-question">
+            <input type="text" value="">
+            <input type="text" name="" id="">
+            <button>Add</button>
+        </form> -->
+    </div>
+    <div id="score">
+        <h2>SCOREBOARD</h2>
+        <h4 class="marks">You score</h4>
+        
+    </div>
+    <script src="mo.js"></script>
+</body>
+
+</html>
