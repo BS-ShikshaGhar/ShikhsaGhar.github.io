@@ -188,7 +188,11 @@ var mins = clock.getMinutes();
 var sec = clock.getSeconds();
 if(hour<12){
     meridian="AM";
+    if(hour<10)
+    {
     hour="0"+hour;
+    }
+    //hour="0"+hour;
 }
 else{
     meridian="PM";
