@@ -11,14 +11,14 @@ var que =[
      },
      {  question:"Which velocity is known as “If unequal displacements in equal intervals of time are moving”",
         option:['instantaneous velocity','uniform velocity','non-uniform velocity','average velocity'],
-        right:'uniform velocity'
+        right:'non-uniform velocity'
      },
      { question:"Which of the following physical quantities is independent of direction?",
        option:['vectors','C.G.S','scalars','S.I'],
        right:'scalars'
      },
      {
-        question:"Which velocity is known as “If unequal displacements in equal intervals of time is moving”",
+        question:"Which velocity is known as “If equal displacements in equal intervals of time are moving”",
         option:['average velocity','instantaneous velocity','non-uniform velocity','none of the above'],
         right:'non-uniform velocity'
      },
@@ -40,7 +40,7 @@ var que =[
      {
         question:"If an object moves along a straight path it is said to be ………………… motion",
         option:['linear','one-dimensional','Both A and B','two-dimensional.'],
-        right:"linear"
+        right:"Both A and B"
      },
      {
         question:"Give the hazard motion of a honey bee.",
@@ -192,7 +192,6 @@ if(hour<12){
     {
     hour="0"+hour;
     }
-    //hour="0"+hour;
 }
 else{
     meridian="PM";
