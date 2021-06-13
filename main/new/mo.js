@@ -19,8 +19,8 @@ var que =[
      },
      {
         question:"Which velocity is known as “If equal displacements in equal intervals of time are moving”",
-        option:['average velocity','instantaneous velocity','non-uniform velocity','none of the above'],
-        right:'non-uniform velocity'
+        option:['average velocity','instantaneous velocity','uniform velocity','none of the above'],
+        right:'uniform velocity'
      },
      {
          question:"What is mean by the rate of displacement of a body?",
