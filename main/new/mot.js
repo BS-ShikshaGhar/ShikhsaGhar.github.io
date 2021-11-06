@@ -1,8 +1,8 @@
 // const contain  = document.querySelector('#question-list li:nth-child')
 var que =[
     { question:"Convert the 0.007 into fraction",
-     option:['1/007','700/100','7/100','none of the above'],
-     right:'7/100'
+     option:['1/007','700/100','7/1000','none of the above'],
+     right:'7/1000'
      },
      {
          question:"You have cut your birthday cake in 8 equal pieces , Your brother ate 6 pieces. What fraction of cake your brother ate?",
@@ -44,6 +44,7 @@ var que =[
  });
 let i=0;
 const contain=document.querySelectorAll('#question-list li .question');
+console.log(contain)
 contain.forEach(function(con){
     // let i=0;
     // for(let i=0;i<contain.length;i++){
@@ -117,46 +118,7 @@ var r = document.querySelectorAll(".option");
     yt.textContent="You Scored "+score;
  }
 
- //form addition starts here
- const adele = document.forms["add-question"];
-
- adele.addEventListener('submit',function(behave){
-     behave.preventDefault();
-     const value = adele.querySelector('input[type="text"]').value;
-     console.log(value);
-     
-     const ul = document.createElement('ul');
-     const li = document.createElement('li');
-     const span2 = document.createElement('span');
-     const br = document.createElement('br');
-     const span = document.createElement('span');
-     li.appendChild(span);
-     li.appendChild(span2);
-     ul.appendChild(li);
-     const div=document.querySelector('#suggest');
-     div.appendChild(ul);
-    //  span.appendChild(br);
-     span.textContent=value;
-     li.insertBefore(br,span2);
-     li.insertBefore(br,span2);
-     span2.style.float = 'right';
-    //  span2.style.backgroundColor="black";
-    //  span2.style.color="white";
-     span2.textContent=" ok I will suggest this question to Bikki";
-     //appending to DOM
-     
- });
-//  span.textContent=value;
-//  const ul = document.createElement('ul');
-//  const li = document.createElement('li');
-//  const span = document.createElement('span');
-//  //appending to DOM
-//  li.appendChild(span);
-//  ul.appendChild(li);
-//  const div=document.querySelector('#suggest');
-//  div.appendChild(ul);
-
-
+ 
 
 // creating clock
 let meridian="";
