@@ -14,7 +14,7 @@ var que =[
         right:'75%'
      },
      { question:"Convert 33% into fraction",
-       option:['100/33','100/33','33/1000','1000/33'],
+       option:['100/33','100/33','33/1000','33/100'],
        right:'33/100'
      },
      {
